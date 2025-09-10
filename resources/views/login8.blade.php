@@ -64,13 +64,15 @@
             <label for="username">Username</label>
             <input
                 type="text"
+                name="username"
                 id="username"
                 class="border border-gray-200 p-2"
+                autocomplete="username"
                 value="{{ old('username') }}"
                 @error('username') aria-invalid="true" aria-describedby="username-error" @enderror
             >
             @error('username')
-                <span id="username-error">{{ $message }}</span>
+                <span id="username-error" class="text-red-500">{{ $message }}</span>
             @enderror
 
         </div>
@@ -80,11 +82,13 @@
             <input
                 type="password"
                 id="password"
+                name="password"
                 class="border border-gray-200 p-2"
+                autocomplete="current-password"
                 @error('password') aria-invalid="true" aria-describedby="password-error" @enderror
             >
             @error('password')
-            <span id="password-error">{{ $message }}</span>
+            <span id="password-error" class="text-red-500">{{ $message }}</span>
             @enderror
         </div>
 

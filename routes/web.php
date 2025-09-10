@@ -19,5 +19,11 @@ Route::post('/login', function(Request $request){
         'password' => 'required',
     ]);
     $validator->validate();
+
+    return redirect()->to('/orders')->with('success', 'Benvenuto ' . $request->string('username'));
+});
+
+Route::get('/orders', function () {
+    return view('orders');
 });
 

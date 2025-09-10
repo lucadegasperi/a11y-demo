@@ -13,7 +13,7 @@
         <span class="sr-only" id="primary-navigation">Navigazione Principale</span>
         <ul class="flex items-center gap-8 text-xl text-green-950 font-semibold">
             <li class="w-20">
-                <a href="/">
+                <a href="/" aria-current="page">
                     <img src="/storage/logo.png" alt="Logo XPUG">
                     <span class="sr-only">HomePage</span>
                 </a>
