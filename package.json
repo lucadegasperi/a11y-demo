@@ -19,6 +19,7 @@
   "dependencies": {
     "@axe-core/playwright": "^4.10.2",
     "alpinejs": "^3.14.9",
+    "laravel-precognition-alpine": "^0.7.2",
     "playwright": "^1.55.0"
   }
 }

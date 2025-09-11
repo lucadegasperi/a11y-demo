@@ -39,7 +39,7 @@
 
     @if (session()->has('success'))
         <div
-            class="mb-4 p-4 border border-red-500 bg-red-100 text-red-700"
+            class="mb-4 p-4 border border-blue-500 bg-blue-100 text-blue-700"
             role="alert"
             aria-live="assertive"
             id="feedback"
