@@ -46,8 +46,8 @@
                 <p class="text-lg font-semibold">Ultimi Eventi</p>
 
                 <h2><a href="#" class="hover:underline text-2xl font-semibold">Quanto è semplice il "Simple Design"?</a></h2>
-                </h2><a href="#" class="hover:underline text-2xl font-semibold">Javascript: in the loop</a></h2>
-                </h2><a href="#" class="hover:underline text-2xl font-semibold">XPUG Trento - Coding Dojo</a></h2>
+                <h2><a href="#" class="hover:underline text-2xl font-semibold">Javascript: in the loop</a></h2>
+                <h2><a href="#" class="hover:underline text-2xl font-semibold">XPUG Trento - Coding Dojo</a></h2>
             </div>
 
 
